@@ -1,0 +1,15 @@
+[0;1;32m●[0m open-vm-tools.service - Service for virtual machines hosted on VMware
+     Loaded: loaded (]8;;file://neriyajacobsen-VMware-Virtual-Platform/usr/lib/systemd/system/open-vm-tools.service/usr/lib/systemd/system/open-vm-tools.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+    Drop-In: /usr/lib/systemd/system/open-vm-tools.service.d
+             └─]8;;file://neriyajacobsen-VMware-Virtual-Platform/usr/lib/systemd/system/open-vm-tools.service.d/desktop.confdesktop.conf]8;;
+     Active: [0;1;32mactive (running)[0m since Thu 2025-05-15 11:54:08 IDT; 13min ago
+       Docs: ]8;;http://open-vm-tools.sourceforge.net/about.phphttp://open-vm-tools.sourceforge.net/about.php]8;;
+   Main PID: 8086 (vmtoolsd)
+      Tasks: 4 (limit: 4551)
+     Memory: 1.8M (peak: 2.1M)
+        CPU: 1.539s
+     CGroup: /system.slice/open-vm-tools.service
+             └─[0;38;5;245m8086 /usr/bin/vmtoolsd[0m
+
+May 15 11:54:08 neriyajacobsen-VMware-Virtual-Platform systemd[1]: Starting open-vm-tools.service - Service for virtual machines hosted on VMware...
+May 15 11:54:08 neriyajacobsen-VMware-Virtual-Platform systemd[1]: Started open-vm-tools.service - Service for virtual machines hosted on VMware.
